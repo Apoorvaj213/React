@@ -21,9 +21,9 @@ const Home = () => {
 
   return (
     <div>
-      <Header title="API Fetch App" />
+      <Header title="API Fetch Application" />
 
-      {error && <h2>{error}</h2>}
+      {error && <h2 className="error">{error}</h2>}
 
       <div className="card-container">
         {posts.map((item) => (
